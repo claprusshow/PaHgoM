@@ -34,7 +34,7 @@ while True:
     print(Fore.WHITE + '2 ⇒  От 1 до 100')
     print(Fore.WHITE + '3 ⇒  От 1 до 1000')
     print(Fore.WHITE + '4 ⇒  От 1 до 10000')
-    randomm = input('\n► Выберу одну из цифр: ')
+    randomm = input('\n► Выбери одну из цифр: ')
 
     if randomm == '1':
         print(Fore.GREEN + '\n\n✅ Результат: ' + str(random.randint(1, 10)))
@@ -48,4 +48,4 @@ while True:
     elif randomm == '4':
         print(Fore.BLUE + '\n\n✅ Результат: ' + str(random.randint(1, 1000)))
 
-    print(Fore.WHITE + '\n► Нажмите Ctrl + Z чтобы остановить рандом!')
+    print(Fore.WHITE + '\n► Нажми Ctrl + Z чтобы остановить рандом!')
