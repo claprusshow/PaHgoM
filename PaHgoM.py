@@ -46,6 +46,6 @@ while True:
         print(Fore.YELLOW + '\n\n✅ Результат: ' + str(random.randint(1, 1000)))
 
     elif randomm == '4':
-        print(Fore.BLUE + '\n\n✅ Результат: ' + str(random.randint(1, 1000)))
+        print(Fore.BLUE + '\n\n✅ Результат: ' + str(random.randint(1, 10000)))
 
     print(Fore.WHITE + '\n► Нажми Ctrl + Z чтобы остановить рандом!')
